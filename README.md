@@ -1,6 +1,6 @@
-# Angular Ngrx Shopping Cart
+# Angular NgRx Shopping Cart
 
-In this demo repo, we'll see how to add and remove shopping products to cart using Angular and NGRX.
+In this demo repo, we'll see how to add and remove shopping products to cart using Angular and NgRx.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1
 

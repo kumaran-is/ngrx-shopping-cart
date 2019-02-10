@@ -5,7 +5,7 @@
 * NA
 
 #### Features
-* Added page page layout and navigation bar[[PR 1](https://github.com/kumaran-is/ngrx-demo/pull/1)]
+* Integrated with packtracker.io [[PR 1](https://github.com/kumaran-is/ngrx-demo/pull/1)]
 
 #### Breaking Changes
 * NA
