@@ -2,7 +2,7 @@
 
 In this demo repo, we'll see how to add and remove shopping products to cart using Angular and NGRX.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1
 
 ## Webpack Bundle Analysis and Statistics
 
@@ -12,25 +12,24 @@ This repository is integrated with packtracker.io, which provids webpack bundle 
 
 1. [Prerequisites and Installation](#prerequisites-and-installation)
 2. [Quick Start](#quick-start)
-3. [Demo UI](#demo-ui)
-4. [Build Tasks and Commands](#build-tasks-and-commands)
-5. [Changelog](#changelog)
-6. [References](#references)
+3. [Build Tasks and Commands](#build-tasks-and-commands)
+4. [Changelog](#changelog)
+5. [Issue Tracker](#issue-tracker)
 
 ## Prerequisites and Installation
 
 Library | Version | Notes
 :-------|:--------:|-------
-[Node](https://nodejs.org/) | 10.9.0 | Recommended NodeJS version
-[NPM](https://nodejs.org/) |6.5.0 | Recommended NPM version
-[Angular](https://angular.io/) | ~7.1.x | JavaScript-based open-source front-end SPA framework
-[Angular CLI](https://github.com/angular/angular-cli) | 7.1.x | Set of development tools for Angular
-[RxJS](https://rxjs-dev.firebaseapp.com/)| ~6.3.3 | JavaScript library for reactive programming using Observables
-[@ngrx/store](https://ngrx.io/)| ~7.0.0 | Manage reactive state for Angular
-[@ngrx/effects](https://ngrx.io/)| ~7.0.0 | Implement side-effects like http requests, logging, notifications
-[@ngrx/store-devtools](https://ngrx.io/)| ~7.0.0 |  Development tool to monitor and debug NGRX actions, state, effects and also enables a powerful time-travelling debugger
-[@ngrx/entity](https://ngrx.io/)| ~7.0.0 | Manage state and CRUD operations for object collection and array
-[@ngrx/router-store](https://ngrx.io/)| ~7.0.0 | Connects the Angular Router to ngrx store to manage state for angular router
+[Node](https://nodejs.org/) | 10.15.0 | Recommended NodeJS version
+[NPM](https://nodejs.org/) |6.4.1 | Recommended NPM version
+[Angular](https://angular.io/) | ~7.2.x | JavaScript-based open-source front-end SPA framework
+[Angular CLI](https://github.com/angular/angular-cli) | 7.3.1 | Set of development tools for Angular
+[RxJS](https://rxjs-dev.firebaseapp.com/)| ~6.4.0 | JavaScript library for reactive programming using Observables
+[@ngrx/store](https://ngrx.io/)| ~7.2.0 | Manage reactive state for Angular
+[@ngrx/effects](https://ngrx.io/)| ~7.2.0 | Implement side-effects like http requests, logging, notifications
+[@ngrx/store-devtools](https://ngrx.io/)| ~7.2.0 |  Development tool to monitor and debug NGRX actions, state, effects and also enables a powerful time-travelling debugger
+[@ngrx/entity](https://ngrx.io/)| ~7.2.0 | Manage state and CRUD operations for object collection and array
+[@ngrx/router-store](https://ngrx.io/)| ~7.2.0 | Connects the Angular Router to ngrx store to manage state for angular router
 [ngrx-store-freeze](https://github.com/brandonroberts/ngrx-store-freeze)| ~0.2.4 | Meta-reducer that prevents state from being mutated
 [angular-in-memory-web-api](https://www.npmjs.com/package/angular-in-memory-web-api)| ~0.8.0 | An in-memory web api for Angular demos and tests that emulates CRUD operations over a RESTy API.
 
@@ -126,7 +125,10 @@ Before submitting a Pull Request for the  repository make sure to check the foll
     - Review the changelog and application version
     - Delete the branch after merging back with the master branch.
 
-## Status and Issues
+## Changelog
 
-* [ngrx-shopping-cart History](./CHANGELOG.md).
+* [Changelog](./CHANGELOG.md).
+
+## Issue Tracker
+
 * [Issue tracker](https://github.com/kumaran-is/ngrx-shopping-cart/issues?state=open)
