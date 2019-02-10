@@ -41,9 +41,8 @@ To launch the demo application, you can try below steps yourself on your compute
 
     ```bash
     git clone https://github.com/kumaran-is/ngrx-shopping-cart.git
-    cd demos
-    git checkout master
     cd ngrx-shopping-cart
+    git checkout master
     ```
 
 1. Install NPM dependencies
@@ -55,8 +54,8 @@ To launch the demo application, you can try below steps yourself on your compute
 1. Run linting and unit test
 
     ```bash
-    ng lint
-    ng test
+    npm run lint
+    npm run test
     ```
 
 1. Start application in development mode
