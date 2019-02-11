@@ -38,3 +38,7 @@ documentation/
 # System Files
 .DS_Store
 Thumbs.db
+
+# Profile files
+speed-measure-plugin.json
+chrome-profiler-events.json

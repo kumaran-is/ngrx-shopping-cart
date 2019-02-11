@@ -7,6 +7,7 @@
     "build": "ng build --base-href=./",
     "prod-build": "ng build --prod --base-href=./",
     "prod-build-source-map": "npm run prod-build -- --source-map",
+    "prod-build-profile": "npm run prod-build -- --profile",
     "dev-serve": "ng serve -o",
     "prod-serve": "ng serve --prod -o",
     "test": "ng test",

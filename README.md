@@ -84,6 +84,16 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Profiling the Build
+
+The more the application grows, the slower the build gets. Angular CLI version 7.0.0 introduced a --profile flag that outputs the build events and lets you profile them in chrome://tracing. You can use this feature as follows:
+
+1. Build your project with --profile flag on (ng build --prod --profile)
+2. Angular CLI will produce a file called chrome-profiler-events.json
+3. Open [chrome://tracing](chrome://tracing/) and click on “Load” in the top left corner
+4. Select chrome-profiler-events.json
+5. For more detail refer the [link](https://blog.mgechev.com/2019/02/06/5-angular-cli-features/)
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
