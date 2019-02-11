@@ -8,6 +8,9 @@
 * Added root store, base layout, base product search and cart pages and routing [[PR 3](https://github.com/kumaran-is/ngrx-shopping-cart/pull/3)]
 
 * Added npm script and instruction to run build profile [[PR 3](https://github.com/kumaran-is/ngrx-shopping-cart/pull/3)]
+
+* Added Angular Material [[PR 3](https://github.com/kumaran-is/ngrx-shopping-cart/pull/3)]
+
 #### Breaking Changes
 * NA
 
