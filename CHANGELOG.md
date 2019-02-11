@@ -1,3 +1,21 @@
+<a name="v0.0.3"></a>
+## 0.0.3 (2019-02-10)
+
+#### Bug Fixes
+* NA
+
+#### Features
+* Clean up package.json, removed unwanted packages and npm scripts [[PR 2](https://github.com/kumaran-is/ngrx-shopping-cart/pull/2)]
+
+* Removed packtracker.io integration [[PR 2](https://github.com/kumaran-is/ngrx-shopping-cart/pull/2)]
+
+* Removed [ngx-build-modern](https://github.com/manfredsteyer/ngx-build-plus/blob/master/ngx-build-modern/README.md) to Create optimized bundles for modern browsers and legacy bundles for older browsers. Make the browser load the right set of bundles [[PR 2](https://github.com/kumaran-is/ngrx-shopping-cart/pull/2)]
+
+* Removed [angular-cli-ghpages](https://github.com/angular-schule/angular-cli-ghpages) to deploy Angular app to GitHub page [[PR 2](https://github.com/kumaran-is/ngrx-shopping-cart/pull/2)]
+
+#### Breaking Changes
+* NA
+
 <a name="v0.0.2"></a>
 ## 0.0.2 (2019-02-09)
 
@@ -5,7 +23,7 @@
 * NA
 
 #### Features
-* Integrated with packtracker.io [[PR 1](https://github.com/kumaran-is/ngrx-demo/pull/1)]
+* Integrated with packtracker.io [[PR 1](https://github.com/kumaran-is/ngrx-shopping-cart/pull/1)]
 
 #### Breaking Changes
 * NA
