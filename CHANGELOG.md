@@ -1,3 +1,15 @@
+<a name="v0.0.4"></a>
+## 0.0.4 (2019-02-10)
+
+#### Bug Fixes
+* NA
+
+#### Features
+* Added root store, base layout, base product search and cart pages and routing [[PR 3](https://github.com/kumaran-is/ngrx-shopping-cart/pull/3)]
+
+#### Breaking Changes
+* NA
+
 <a name="v0.0.3"></a>
 ## 0.0.3 (2019-02-10)
 
