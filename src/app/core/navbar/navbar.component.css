@@ -15,3 +15,15 @@
   top: 0;
   z-index: 1;
 }
+
+.fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+.fill-remaining-space2 {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+     flex-grow: 0.2;
+}
