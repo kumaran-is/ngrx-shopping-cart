@@ -1,23 +1,17 @@
 import { LayoutModule } from '@angular/cdk/layout';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { MatButtonModule, MatIconModule, MatListModule, MatSidenavModule, MatToolbarModule } from '@angular/material';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import {
-  MatButtonModule,
-  MatIconModule,
-  MatListModule,
-  MatSidenavModule,
-  MatToolbarModule,
-} from '@angular/material';
+import { HeaderComponent } from './header.component';
 
-import { NavbarComponent } from './navbar.component';
 
-describe('NavbarComponent', () => {
-  let component: NavbarComponent;
-  let fixture: ComponentFixture<NavbarComponent>;
+describe('HeaderComponent', () => {
+  let component: HeaderComponent;
+  let fixture: ComponentFixture<HeaderComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [NavbarComponent],
+      declarations: [HeaderComponent],
       imports: [
         NoopAnimationsModule,
         LayoutModule,
@@ -31,7 +25,7 @@ describe('NavbarComponent', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NavbarComponent);
+    fixture = TestBed.createComponent(HeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
