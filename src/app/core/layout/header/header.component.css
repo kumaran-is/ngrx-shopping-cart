@@ -23,3 +23,10 @@
      Every toolbar row uses a flexbox row layout. */
      flex-grow: 0.5;
 }
+
+.links {
+  color: white;
+  text-decoration: none;
+  margin:0;
+  padding: 1em;
+}
