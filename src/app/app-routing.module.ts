@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from '@app/home/home.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
   { path: 'home', component: HomeComponent },
-  { path: 'cart', loadChildren: './cart/cart.module#cartModule' },
+  { path: 'cart', loadChildren: '@app/cart/cart.module#CartModule' },
   { path: '**', pathMatch: 'full', component: HomeComponent }
 ];
 

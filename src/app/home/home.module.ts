@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { MatButtonModule, MatFormFieldModule, MatInputModule } from '@angular/material';
-import { SharedModule } from './../shared/shared.module';
-import { HomeComponent } from './home.component';
+import { HomeComponent } from '@app/home/home.component';
+import { SharedModule } from '@shared/shared.module';
 
 
 @NgModule({
