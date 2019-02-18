@@ -81,5 +81,11 @@
     "tslint-language-service": "~0.9.9",
     "typescript": "~3.2.2",
     "webpack-bundle-analyzer": "~3.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "ng lint",
+      "pre-push": "ng lint"
+    }
   }
 }
