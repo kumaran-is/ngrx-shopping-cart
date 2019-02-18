@@ -7,14 +7,14 @@ import { AppComponent } from '@app/app.component';
 import { HomeModule } from '@app/home/home.module';
 import { CoreModule } from '@core/core.module';
 import { LayoutModule } from '@layout/layout.module';
-import { MaterialModule } from '@material/material.module';
+import { SharedModule } from '@shared/shared.module';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialModule,
+    SharedModule,
     CoreModule,
     LayoutModule,
     HomeModule,

@@ -7,7 +7,6 @@
       "@core/*": ["app/core/*"],
       "@env/*": ["environments/*"],
       "@layout/*": ["app/layout/*"],
-      "@material/*": ["app/material/*"],
       "@shared/*": ["app/shared/*"],
     },
     "outDir": "./dist/out-tsc",
