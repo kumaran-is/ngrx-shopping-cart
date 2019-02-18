@@ -11,9 +11,10 @@ const options = {
 try {
     let changedFiles = replace.sync(options);
     if (changedFiles == 0) {
-      console.info('No changes to app version');
+      console.log('No changes to Application Version: ' + appVersion);
+    } else {
+      console.log('Application version set: ' + appVersion);
     }
-    console.log('Application version set: ' + appVersion);
 }
 catch (error) {
     console.error('Error occurred:', error);
