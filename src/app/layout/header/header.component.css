@@ -10,8 +10,13 @@
   flex: 1 1 auto;
 }
 
-.menu button,
-.menu a {
+.toolbar {
+  max-height: 50px;
+  min-height: 50px;
+}
+
+.toolbar button,
+.toolbar a {
   font-weight: 400;
   margin-right: 8px;
 }
