@@ -1,9 +1,11 @@
-<header role="banner" >
-  <app-header></app-header>
-</header>
-<main role="main" >
-  <router-outlet></router-outlet>
-</main>
-<footer role="contentinfo" >
-  <app-footer></app-footer>
-</footer>
+<div class="container" fxLayout="column" >
+  <header role="banner" fxFlex="10" >
+    <app-header></app-header>
+  </header>
+  <main role="main" fxFlex="75" >
+    <router-outlet></router-outlet>
+  </main>
+  <footer role="contentinfo" fxFlex="15" >
+    <app-footer></app-footer>
+  </footer>
+</div>

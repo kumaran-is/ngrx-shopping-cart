@@ -2,25 +2,9 @@
 html, body {
   height: 100%;
   width: 100%;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
-}
-
-header {
-  height: 75px;
-}
-
-main {
-  flex: auto;
-  background-color: #FFFFFF;
-}
-
-footer {
-  height: 25px;
 }
