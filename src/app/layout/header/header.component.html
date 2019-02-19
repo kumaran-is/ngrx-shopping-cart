@@ -1,14 +1,14 @@
 <header>
   <mat-toolbar color="primary" class="toolbar">
-    <a mat-button (click)="goHome()">
+    <a mat-button routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" >
       <span class="mat-title" >ngrx-shopping-cart</span>
     </a>
     <span class="menu-fill-remaining-space1"></span>
-    <a mat-button (click)="goHome()" >Home</a>
+    <a mat-button routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" >Home</a>
     <span class="menu-fill-remaining-space2"></span>
-    <button mat-icon-button  (click)="goCart()" >
+    <a mat-icon-button  routerLink="/cart" routerLinkActive="active" >
       <mat-icon>shopping_cart</mat-icon>
-    </button>
+    </a>
    </mat-toolbar>
 </header>
 
