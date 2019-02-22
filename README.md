@@ -1,5 +1,7 @@
 # Angular NgRx Shopping Cart
 
+[![Known Vulnerabilities](https://snyk.io/test/github/kumaran-is/ngrx-shopping-cart/badge.svg)](https://snyk.io/test/github/kumaran-is/ngrx-shopping-cart)
+
 In this demo repo, we'll see how to add and remove shopping products to cart using Angular and NgRx.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1
