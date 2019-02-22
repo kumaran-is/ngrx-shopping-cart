@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { AppRoutingModule } from '@app/app-routing.module';
 import { AppComponent } from '@app/app.component';
 import { HomeModule } from '@app/home/home.module';
+import { RootStoreModule } from '@app/root-store';
 import { CoreModule } from '@core/core.module';
 import { LayoutModule } from '@layout/layout.module';
 import { SharedModule } from '@shared/shared.module';
@@ -16,6 +17,7 @@ import { SharedModule } from '@shared/shared.module';
     BrowserAnimationsModule,
     CoreModule,
     SharedModule,
+    RootStoreModule,
     LayoutModule,
     HomeModule,
     AppRoutingModule

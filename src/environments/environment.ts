@@ -5,7 +5,8 @@
 export const environment = {
   production: false,
   // version is automatically updated during build from package.json
-  version: '0.0.4'
+  version: '0.0.4',
+  configFilePath: 'assets/config/dev.config.json'
 };
 
 /*
