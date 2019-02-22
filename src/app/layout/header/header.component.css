@@ -25,5 +25,9 @@
 }
 
 .menu-active {
+  color:#FFFFFF;
+}
+
+.toolbar a:hover {
   color:#ff4081;
 }
