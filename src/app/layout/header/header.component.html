@@ -1,16 +1,14 @@
-<header>
-  <mat-toolbar color="primary" class="toolbar">
+<div class="header">
+  <mat-toolbar color="primary" role="navigation" class="toolbar">
     <mat-toolbar-row>
-      <a mat-button [routerLink]="['/home']" >
+      <a role="banner" mat-button [routerLink]="['/home']" >
         <span class="mat-title" >ngrx-shopping-cart</span>
       </a>
-      <span class="menu-fill-remaining-space1"></span>
-      <a mat-button [routerLink]="['/home']" [routerLinkActive]="['menu-active']" [routerLinkActiveOptions]="{exact:true}" >Home</a>
-      <span class="menu-fill-remaining-space2"></span>
+      <a mat-button class="center-nav-menu" [routerLink]="['/home']" [routerLinkActive]="['menu-active']" [routerLinkActiveOptions]="{exact:true}" >Home</a>
       <a mat-icon-button  [routerLink]="['/cart']" [routerLinkActive]="['menu-active']" [routerLinkActiveOptions]="{exact:true}" >
         <mat-icon>shopping_cart</mat-icon>
       </a>
     </mat-toolbar-row>
   </mat-toolbar>
-</header>
+</div>
 
