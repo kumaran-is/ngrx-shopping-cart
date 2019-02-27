@@ -1,5 +1,18 @@
+<a name="v0.0.5"></a>
+## 0.0.5 (2019-02-28)
+
+#### Bug Fixes
+* NA
+
+#### Features
+
+* Implemented optimized folder project structure [[PR 4](https://github.com/kumaran-is/ngrx-shopping-cart/pull/4)]
+
+#### Breaking Changes
+* NA
+
 <a name="v0.0.4"></a>
-## 0.0.4 (2019-02-10)
+## 0.0.4 (2019-02-26)
 
 #### Bug Fixes
 * NA
