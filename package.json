@@ -25,7 +25,7 @@
     "stats": "ng build --prod --base-href=./ --stats-json && webpack-bundle-analyzer dist/ngrx-shopping-cart/stats.json",
     "conventional-changelog": "conventional-changelog",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "git-publish": "npm run prod-build && npx angular-cli-ghpages --dir=dist/ngrx-web-starter1 --branch=gh-pages"
+    "git-publish": "npm run prod-build && npx angular-cli-ghpages --dir=dist/ngrx-shopping-cart --branch=gh-pages"
   },
   "private": true,
   "dependencies": {
