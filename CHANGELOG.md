@@ -1,5 +1,5 @@
 <a name="v0.0.5"></a>
-## 0.0.5 (2019-02-28)
+## 0.0.5 (2019-03-08)
 
 #### Bug Fixes
 * NA
@@ -7,6 +7,8 @@
 #### Features
 
 * Implemented optimized folder project structure [[PR 4](https://github.com/kumaran-is/ngrx-shopping-cart/pull/4)]
+
+* Published angular application to github page using [angular-cli-ghpages](https://github.com/angular-schule/angular-cli-ghpages) [[PR 4](https://github.com/kumaran-is/ngrx-shopping-cart/pull/4)]
 
 #### Breaking Changes
 * NA
